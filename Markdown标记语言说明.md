@@ -6,7 +6,7 @@
 > 基本符号:  * - + >   
 > 基本上所有的markdown标记都是基于这四个符号或组合   
 > 以基本符号开头的标记,基本符号后要有一个空格(用于分割标记符和内容)   
-> 如果只是想显示这些基本符号建议在基本符号前加反斜杠\(例如\*)
+> 如果只是想显示这些基本符号建议在基本符号前加反斜杠\(例如\*)  
 > **Markdown语法也原生支持HTML语法**   
 
 ## 字体
@@ -80,8 +80,53 @@
 > 示例:   
 :    这是一个代码块,此行左侧有四个不可见的空格  
     
-3. 段落文本代码块   
-> 语法: 在代码的前后使用三个\`\`\`   
+3. 代码块(一整段都是代码)  
+   1. 普通代码块
+   > 语法: 在代码的前后使用三个\`\`\`  
+   > 例如:  
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.climer.</groupId>
+    <artifactId>spring</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency><!-- spring核心依赖 -->
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.1.4.RELEASE</version>
+        </dependency>
+        <dependency><!-- spring核心组件context -->
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.1.4.RELEASE</version>
+        </dependency>
+    </dependencies>
+</project>
+```
+   2. 特定语言的代码块:  
+   > 语法: 用法同普通代码块,只不过在代码前的三个\`后边跟上需要标记的语言就可以了
+   > 例如: 
+```java
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+
+}  
+```  
+   3. 类似与git日志那种代码块  
+```diff
+- 这是删除的代码块
++ 这是添加的代码块
+```
 
 
  

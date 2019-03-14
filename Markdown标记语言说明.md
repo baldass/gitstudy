@@ -139,8 +139,8 @@ public class Application {
  
 ## 其他
 > 1. 连接  
-> 语法:   
-> 例子:   
+> 语法: \[]()  
+> 例子: [这个页面的连接](https://github.com/baldass/gitstudy/blob/master/Markdown%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80%E8%AF%B4%E6%98%8E.md)  
 
 > 2. 图片  
 > 语法:  \!\[]()  

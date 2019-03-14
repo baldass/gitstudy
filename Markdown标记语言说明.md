@@ -1,7 +1,7 @@
 # Markdown纯文本标记语言
-可以通过简书的Markdown编辑模式进行markdown的练习   
-开启方式`开启方式：设置->默认编辑器->Markdown编辑器`
-https://daringfireball.net/projects/markdown/syntax
+> 可以通过简书的Markdown编辑模式进行markdown的练习   
+> 开启方式`开启方式：设置->默认编辑器->Markdown编辑器  
+> [据说是官方说明](https://daringfireball.net/projects/markdown/syntax)
 
 ## Markdown 语法
 > 基本符号:  * - + >   

@@ -146,11 +146,11 @@ public class Application {
 > 语法:  \!\[]()  
 > 例如: ![小喵喵](https://raw.githubusercontent.com/baldass/gitstudy/master/imgs/tx.jpg)  
 
-> 3. 脚注  
+> 3. 脚注(github上貌似不能用)  
 > 语法: [^脚注]
-> 例如 [^这样]
+> 例如 这样[^1]
 
 
 
 
-[^这样] 这个就是脚注
+[^1] 这个就是脚注

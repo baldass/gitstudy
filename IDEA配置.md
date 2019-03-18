@@ -2,7 +2,7 @@
 官网：https://www.jetbrains.com/idea/  
 
 ## IDEA破解 
-1. 将JetbrainsIdesCrack-4.2-release-sha1.jar放到安装IDEA路径的bin目录下  
+1. 将[JetbrainsIdesCrack-4.2-release-sha1.jar](https://raw.githubusercontent.com/baldass/gitstudy/master/idea/JetbrainsIdesCrack-4.2-release-sha1.jar)放到安装IDEA路径的bin目录下  
 2. 找到同一目录下的idea.exe.vmoptions和idea64.exe.vmoptions,在两个文件最后分别加上
 ```
 -javaagent:{安装IDEA的绝对路径}\bin\JetbrainsIdesCrack-4.2-release-sha1.jar

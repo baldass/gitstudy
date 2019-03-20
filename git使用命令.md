@@ -1,10 +1,10 @@
 # git安装及配置  
 
-# 
+##  
 
 
 
-### 将本地项目推送到远程
+### 将本地项目推送到远端
 1. 初始化自己的项目放入缓存区  
 ```
  git init
@@ -50,3 +50,10 @@ fatal: refusing to merge unrelated histories
 ```
 则使用该命令`git pull origin master --allow-unrelated-histories`  
 6. pull成功后解决冲突重新提交
+
+
+#### git reset的时候提示  
+>error: bad signature  
+fatal: index file corrupt  
+
+由于git的index文件出错.需要删除目标项目下的.git/index文件,重新运行git reset

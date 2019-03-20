@@ -1,6 +1,14 @@
 # git安装及配置  
 
-##  
+### 创建一个远端项目之后,拉取到本地  
+> 在想要方远端项目的文件夹下右键>git badh here  
+> echo "# 随便写点啥,或者干脆跳过这一步" >> README.md  
+> git init  
+> git add README.md //或者直接 git add .  
+> git commit -m "first commit"  
+> git remote add origin https://github.com/baldass/spring-cloud.git
+> git push -u origin master  
+
 
 
 

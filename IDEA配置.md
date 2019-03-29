@@ -1,7 +1,7 @@
 # IDEA配置  
 官网：https://www.jetbrains.com/idea/  
 
-## IDEA破解 
+## IDEA破解(2018可用) 
 1. 将[JetbrainsIdesCrack-4.2-release-sha1.jar](https://raw.githubusercontent.com/baldass/gitstudy/master/idea/JetbrainsIdesCrack-4.2-release-sha1.jar)放到安装IDEA路径的bin目录下  
 2. 找到同一目录下的idea.exe.vmoptions和idea64.exe.vmoptions,在两个文件最后分别加上
 ```
@@ -11,9 +11,9 @@
 ```
 ThisCrackLicenseId-{
 "licenseId":"ThisCrackLicenseId",
-"licenseeName":"你想要的用户名",
+"licenseeName":"someone",
 "assigneeName":"",
-"assigneeEmail":"随便填一个邮箱(我填的:idea@163.com)",
+"assigneeEmail":"idea@qq.com",
 "licenseRestriction":"For This Crack, Only Test! Please support genuine!!!",
 "checkConcurrentUse":false,
 "products":[

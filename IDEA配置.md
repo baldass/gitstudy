@@ -50,4 +50,7 @@ ThisCrackLicenseId-{
     * 打开IDEA=>settings=>Build,Execution,Deployment=>Build Tools=>Maven
 =>在Maven home directory选择自己本地的maven(D:\Program Files\apache\apache-maven-3.6.0)
 =>User settings file: 输入对应的本地配置文件(D:\Program Files\apache\apache-maven-3.6.0\conf\settings.xml)
-=>Local repository: 输入自己的本地Maven仓库
+=>Local repository: 输入自己的本地Maven仓库  
+
+## 设置idea自动提示不区分大小写  
+* IDEA=>settings=>Editor=>General=>Code Completion的Mathch case取消掉

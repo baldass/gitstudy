@@ -57,4 +57,4 @@ ThisCrackLicenseId-{
 
 ## 修改默认文件编码(例如properties文件)  
 > File=>settings=>Editor=>File Encodings=>如下图设置  
-> ![具体设置](https://raw.githubusercontent.com/baldass/gitstudy/master/idea/encodingset.png)
+> ![具体设置](https://raw.githubusercontent.com/baldass/gitstudy/master/idea/idea-filencoding-set.png)

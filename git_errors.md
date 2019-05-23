@@ -1,2 +1,4 @@
-# bash: !: event not found  
+# 使用Git 时遇到个问题及其解决
+
+### bash: !: event not found  
 感叹号位于引号之内且后边有字符的时候会出现这个错误不用!号、!号放最后边或者使用转义字符即可

@@ -57,4 +57,10 @@ ThisCrackLicenseId-{
 
 ## 修改默认文件编码(例如properties文件)  
 > * File=>settings=>Editor=>File Encodings=>如下图设置  
-> ![具体设置](https://raw.githubusercontent.com/baldass/gitstudy/master/idea/idea-filencoding-set.png)
+> ![具体设置](https://raw.githubusercontent.com/baldass/gitstudy/master/idea/idea-filencoding-set.png)  
+
+## 给IDEA配置Tomcat 
++ 点击IDEA与File同一列的Run按钮,在弹出的下拉选项框里选择`Edit Configurations...`  
++ 在弹出的窗口中点击左上角的➕图标,选择Tomcat Server的Local  
++ 填写Name(tomcat的名字,随便起)和Applicantion server(你本地tomcat的位置)  
++ 点击fix,点击完成
